@@ -8,6 +8,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+<UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
+
 function App() {
   const [count, setCount] = useState(0)
 
