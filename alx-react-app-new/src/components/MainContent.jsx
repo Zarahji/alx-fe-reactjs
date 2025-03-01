@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Footer() {
+function MainContent() {
   return (
-    <footer style={{ backgroundColor: 'navy', color: 'white', textAlign: 'center' }}>
-      <p>© 2023 City Lovers</p>
-    </footer>
+    <main style={{ backgroundColor: 'bule', color: 'white', textAlign: 'center' }}>>
+      <p>I love to visit New York, Paris, and Tokyo.</p>
+    </main>
   );
 }
 
-export default Footer;
+export default MainContent;
