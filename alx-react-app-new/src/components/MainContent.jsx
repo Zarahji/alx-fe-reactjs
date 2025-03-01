@@ -1,14 +1,11 @@
-<main>
-  <p>I love to visit New York, Paris, and Tokyo.</p>
-</main>
 import React from 'react';
 
-function MainContent() {
+function Footer() {
   return (
-    <main>
-      <p>This is the main content of the app.</p>
-    </main>
+    <footer style={{ backgroundColor: 'navy', color: 'white', textAlign: 'center' }}>
+      <p>© 2023 City Lovers</p>
+    </footer>
   );
 }
 
-export default MainContent;
+export default Footer;

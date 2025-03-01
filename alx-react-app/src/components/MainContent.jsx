@@ -1,9 +1,12 @@
+<main>
+  <p>I love to visit New York, Paris, and Tokyo.</p>
+</main>
 import React from 'react';
 
 function MainContent() {
   return (
-    <main style={{ backgroundColor: 'bule', color: 'white', textAlign: 'center' }}>>
-      <p>I love to visit New York, Paris, and Tokyo.</p>
+    <main>
+      <p>This is the main content of the app.</p>
     </main>
   );
 }

@@ -48,6 +48,8 @@ function UserProfile(props) {
   );
 }
 
+export default UserProfile;
+
 import React from 'react';
 import UserProfile from './components/UserProfile'; // Adjust path if needed
 
@@ -65,6 +67,7 @@ function App() {
         age="30"
         bio="Enjoys coding and gaming"
       />
+      {/* You can add more UserProfile components with different data */}
     </div>
   );
 }
