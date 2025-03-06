@@ -1,5 +1,6 @@
  // RecipeDetails component
- import { useRecipeStore } from './recipeStore';
+ import App from '../App';
+import { useRecipeStore } from './recipeStore';
 
  const RecipeDetails = ({ recipeId }) => {
    const recipe = useRecipeStore(state =>
@@ -14,3 +15,4 @@
      </div>
    );
  };
+ export default App;
