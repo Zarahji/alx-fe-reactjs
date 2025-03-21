@@ -1,25 +1,28 @@
 module.exports = {
   content: [
-    "./src/**/*.{html,js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
     "./public/index.html",
   ],
-  darkMode: 'class', // Optional: 'media', 'class', or false
   theme: {
     extend: {},
   },
   plugins: [],
-};
-darkMode: 'class'// Enables dark mode via a class
-const { Config } = require("tailwindcss");
+}
 
 module.exports = {
-  content: [
-    "./src/**/*.{html,js,jsx,ts,tsx}",
-    "./public/index.html",
+  purge: [
+    './src//*.html',
+    './src//*.js',
+    './src//*.jsx',
+    './src//*.ts',
+    './src//*.tsx',
   ],
-  darkMode: 'media', // or 'class', or false
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
   },
+  variants: {
+    extend: {},
+  },
   plugins: [],
-};
+}
