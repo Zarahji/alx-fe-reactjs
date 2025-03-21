@@ -3,6 +3,7 @@ module.exports = {
     "./src/**/*.{html,js,jsx,ts,tsx}",
     "./public/index.html",
   ],
+  darkMode: 'class', // Optional: 'media', 'class', or false
   theme: {
     extend: {},
   },
