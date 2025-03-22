@@ -1,4 +1,5 @@
 function UserProfile() {
+  
     return (
       <div className="user-profile">
         <img src="https://via.placeholder.com/150" alt="User" />
