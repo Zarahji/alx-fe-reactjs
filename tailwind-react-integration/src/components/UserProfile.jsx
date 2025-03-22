@@ -2,7 +2,7 @@ import React from "react";
 
 function UserProfile() {
   return (
-    <div className="text-center">
+    <div className="bg-gray-100 p-8 max-w-sm my-20 rounded-lg shadow-lg text-center">
       <img 
         src="https://via.placeholder.com/150" 
         alt="User" 
