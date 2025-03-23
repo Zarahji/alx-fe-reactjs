@@ -16,7 +16,7 @@ const HomePage = () => {
           <div key={recipe.id} className="card bg-white shadow-lg rounded-lg p-4 hover:shadow-xl">
             <img src={recipe.image} alt={recipe.title} className="w-full h-40 object-cover rounded-t-lg" />
             <div className="p-2">
-              <h2 className="text-xl font-semibold mb-2">{recipe.title}</h2>
+              <h2 className="text-xl font-semibold ms-2">{recipe.title}</h2>
               <p className="text-gray-600">{recipe.summary}</p>
             </div>
           </div>
