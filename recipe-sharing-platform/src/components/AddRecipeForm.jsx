@@ -10,6 +10,15 @@ const AddRecipeForm = () => {
     event.preventDefault();
 
     // Validation logic
+    const validate = () => {
+        const newErrors = {};
+        if (!title.trim()) newErrors.title = "Recipe title is required.";
+        if (!ingredients.trim()) newErrors.ingredients = "Please add some ingredients.";
+        else if (ingredients.split(",").length < 2)
+          newErrors.ingredients = "Please include at least two ingredients.";
+        if (!steps.trim()) newErrors.steps = "Preparation steps are required.";
+        return newErrors;
+      };
     if (!title || !ingredients || !steps) {
       setErrorMessage("All fields are required!");
       return;
